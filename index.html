@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini FF Arena</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Mini FF Arena</h1>
+    <p class="subtitle">Protótipo 2D inspirado em battle royale: mova, atire e sobreviva.</p>
+    <canvas id="game" width="900" height="560" aria-label="Jogo"></canvas>
+    <div class="hud">
+      <span id="health">HP: 100</span>
+      <span id="ammo">Munição: 24</span>
+      <span id="enemies">Inimigos: 8</span>
+      <span id="zone">Zona: 100%</span>
+    </div>
+    <p class="controls">WASD para mover • Mouse para mirar • Clique para atirar • R para recarregar • Espaço para iniciar/reiniciar</p>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>
